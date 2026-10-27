@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#211b35">
+
+    <title>عيد ميلاد سعيد ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="stars" aria-hidden="true"></div>
+    <div class="glow glow-one" aria-hidden="true"></div>
+    <div class="glow glow-two" aria-hidden="true"></div>
+
+    <!-- INTRODUCCIÓN -->
+    <main class="scene intro" id="intro">
+        <div class="intro-content">
+            <span class="little-star">✧</span>
+
+            <p class="eyebrow">لأن اليوم يوم مميز</p>
+
+            <h1>
+                عندي ليكِ<br>
+                مفاجأة صغيرة
+            </h1>
+
+            <p class="intro-description">
+                هدية بسيطة، ولكن من القلب.
+            </p>
+
+            <button class="primary-button" id="startButton">
+                اكتشفي المفاجأة
+                <span>←</span>
+            </button>
+
+            <p class="hint">خذي لحظة صغيرة لنفسك ♡</p>
+        </div>
+    </main>
+
+    <!-- SOBRE -->
+    <section class="scene envelope-scene hidden" id="envelopeScene">
+        <p class="section-label">رسالة صغيرة لكِ</p>
+
+        <h2 class="envelope-heading">
+            هناك شيء ينتظركِ
+        </h2>
+
+        <button
+            class="envelope-button"
+            id="envelopeButton"
+            aria-label="افتحي رسالة عيد الميلاد"
+            aria-expanded="false"
+        >
+            <div class="envelope" id="envelope">
+
+                <div class="envelope-back"></div>
+
+                <div class="letter-preview">
+                    <span class="preview-flower">✿</span>
+                    <span>إلى صديقتي</span>
+                    <span class="preview-heart">♡</span>
+                </div>
+
+                <div class="envelope-front"></div>
+                <div class="envelope-flap"></div>
+
+                <div class="seal">♡</div>
+            </div>
+        </button>
+
+        <p class="click-hint" id="clickHint">
+            اضغطي على الظرف لفتح الرسالة
+        </p>
+
+        <!-- CARTA -->
+        <article class="birthday-letter hidden" id="birthdayLetter">
+            <div class="letter-decoration">✧　♡　✧</div>
+
+            <p class="letter-small">إلى صديقتي العزيزة</p>
+
+            <h2>عيد ميلاد سعيد!</h2>
+
+            <div class="letter-line"></div>
+
+            <p class="letter-message">
+                نتمنالك عيد ميلاد مليان فرحة وابتسامات،
+                وإن شاء الله تكون سنتك الجديدة أجمل من اللي فاتت.
+                <br><br>
+                ربي يفتحلك أبواب الخير والنجاح،
+                ويعطيك راحة البال ويحققلك كل أمنياتك.
+                تستاهلي كل حاجة زينة في هاد الدنيا.
+                <br><br>
+                نتمنى تبقاي ديما تضحكي،
+                وتلقاي الفرحة حتى في أبسط لحظات حياتك.
+                وإن شاء الله الأيام الجاية تجيبلك
+                أخبار حلوة وذكريات جميلة.
+            </p>
+
+            <p class="letter-wish">
+                كل عام وأنتِ بخير،<br>
+                وإن شاء الله عامك يكون مليان خير وفرحة ♡
+            </p>
+
+            <div class="letter-footer">بكل صدق، من صديق يتمنالك الخير</div>
+
+            <button class="replay-button" id="replayButton">
+                عيشي الفرحة من جديد ✧
+            </button>
+        </article>
+    </section>
+
+    <script>
+        // El archivo script.js controla las animaciones.
+    </script>
+
+</body>
+</html>
